@@ -1,0 +1,53 @@
+{
+  // START HERE: Replace 0 with YOUR Extra Life participant ID (numbers only).
+  // Find it in your Extra Life fundraising page link or participant dashboard.
+  "participantId": 565194,
+
+  // CUSTOMIZE YOUR STREAM: Replace this with your name, gamer tag, or team name.
+  "GameTradeGregg": "Your Name or Gamer Tag · Extra Life",
+  "title": "Milestone Tracker", // Edit the heading displayed on the widget.
+  "For the Kids!": "Make big change for all kids.", // Edit this message for your stream.
+
+  // OPTIONAL LOGO: Leave this as logo.png to use the included sample logo.
+  // To use your own logo, replace the logo.png file in this folder with your own transparent PNG.
+  // If you do not want a logo, set this to an empty string: ""
+  "logoFile": "logo.png",
+
+  "theme": "dark", // Change "dark" to "light" if you prefer the light CMN theme.
+  "colors": {
+    "accent": "#1C9ED6", // Optional: change the progress bar / accent color.
+    "yellow": "#FFCB05" // Optional: change the next-milestone highlight color.
+  },
+
+  "rotationSeconds": 10, // Number of seconds between the progress and milestone screens.
+  "pollMilliseconds": 30000, // Checks DonorDrive every 30 seconds. Do not set below 15000.
+
+  // HOW TO SET UP YOUR MILESTONES:
+  // 1. Change each amount to the donation total needed to unlock the reward.
+  // 2. Change title to the milestone name; change reward to the activity/prize.
+  // 3. Use enabled: true to show it, or enabled: false to hide it.
+  // 4. There are 12 example slots. The first 5 are shown; the next 7 are hidden.
+  //    Change enabled from false to true when you want to show one.
+  // 5. You may copy one ENTIRE { ... } entry if you need more than 12.
+  // 6. Separate entries with a comma, EXCEPT after the final entry.
+  // 7. You can delete any sample milestone you do not need.
+  //
+  // EXAMPLE ONLY (commented out; do not paste this directly into the list):
+  // {
+  //   "amount": 2500,
+  //   "title": "Special Challenge",
+  //   "reward": "Do a challenge live on stream",
+  //   "enabled": true
+  // },
+  "milestones": [
+    {
+      "amount": 15500,
+      "title": "TestMilestone",
+      "reward": "Test",
+      "enabled": true // Change to false to hide this milestone.
+    },
+  ],
+
+  // ADVANCED: Leave this URL alone unless DonorDrive tells you to change it.
+  "donorDriveBaseUrl": "https://dd.extra-life.org"
+}
